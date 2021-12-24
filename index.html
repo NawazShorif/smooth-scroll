@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>Nawaz</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+    <meta name="author" content="3rd Wave Media">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
+        type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        #myImg {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #myImg:hover {
+            opacity: 0.7;
+        }
+
+
+
+        #myImg2 {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #myImg2:hover {
+            opacity: 0.7;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.9);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content (image) */
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        /* Caption of Modal Image */
+        #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+
+        /* Add Animation */
+        .modal-content,
+        #caption {
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+            from {
+                -webkit-transform: scale(0)
+            }
+
+            to {
+                -webkit-transform: scale(1)
+            }
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0)
+            }
+
+            to {
+                transform: scale(1)
+            }
+        }
+
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px) {
+            .modal-content {
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container">
+            <img class="profile-image img-responsive pull-left" src="assets/images/Resume_PIC.JPG"
+                style="height: 130px;width: 150px; border-radius: 50%" alt="Nawaz" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Md. Nawaz Shorif</h1>
+                <h2 class="desc">Web App Developer</h2>
+                <ul class="social list-inline">
+                    <li><a href="https://github.com/NawazShorif" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/md-nawaz-shorif-4b0b97b2/" target="_blank"><i
+                                class="fa fa-linkedin"></i></a></li>
+                    <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                    <li><a href="https://uhunt.onlinejudge.org/id/611948" target="_blank"><i
+                                class="fa fa-github-alt"></i></a></li>
+                </ul>
+            </div>
+            <!--//profile-->
+            <a class="btn btn-cta-primary pull-right" href="mailto:mr.nawaz.cse.ruet@gmail.com" target="_blank"><i
+                    class="fa fa-paper-plane"></i> Contact Me</a>
+        </div>
+        <!--//container-->
+    </header>
+    <!--//header-->
+
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I am a self-motivated and passionate web developer.<br> I want to exploit my skills to
+                                accomplish the challenging position in the Software Industry and fulfilling
+                                organizational goals. I can learn new technology very quickly.</p>
+                            <p>I have also two months of <b>proffesional experience</b> on Node.js , React and MySQL.
+                            </p>
+                            <p>I have knowledge about Data structures and Algorithms.I solved over 200 problems in <a
+                                    href="https://uhunt.onlinejudge.org/id/611948" target="_blank">UVa</a>,<a
+                                    href="https://codeforces.com/profile/Nawaz_Shorif" target="_blank">codeforces</a>,<a
+                                    href="http://lightoj.com" target="_blank">LightOj</a> and others Online Judge.</p>
+
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
+
+                <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">
+
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="https://app.mybizzmail.com/" target="_blank">Bizzmail</a>
+                                </h3>
+                                <p class="summary">It's a digital marketing project. Here customer can send email ,sms ,
+                                    letter and fillup custom form </p>
+                                <div class="featured-image">
+                                    <a href="https://app.mybizzmail.com/" target="_blank">
+                                        <img class="img-responsive project-image" src="assets/images/bizzmail.png"
+                                            alt="Bizzmail" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">Web App</div>
+                                    </div>
+                                </div>
+
+                                <div class="desc text-left">
+                                    <p>It's a digital marketing site. The key technology used to build the site are
+                                        <b>Node.js, React, MySql, RabbitMQ</b>. Here <b>Mollie </b>has been used for
+                                        payment.<br>
+                                        <table>
+                                            <tr>
+                                                <td style="width:5% ; vertical-align: top; text-align: -webkit-center">
+                                                    <b>Campaign:</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p> This controls form/link click/group filter.Here can be set
+                                                        various actions on form submit. For <b>example</b>, <br> if we
+                                                        set action account sign-signup then on submit the form new
+                                                        account will be created. Like that we can set action to specify
+                                                        under which group this account will go. Campaign is customizable
+                                                        option of MyBizzmail app. </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5%;  vertical-align: top; text-align: -webkit-center">
+                                                    <b>Email:</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p> We can create email using rich text editor. We can add image ,
+                                                        we can resize page /image. We can drag and drop text block,
+                                                        image block, button etc. Email can be locked which prevent from
+                                                        editing.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5%;  vertical-align: top; text-align: -webkit-center">
+                                                    <b>Pages:</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p>From here page/letter can be created/edited/deleted/copied .
+                                                        Letter can be shared with portal.Letter can be colored or B/W.
+                                                        Fom color letter price is different than B/W.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5%;  vertical-align: top; text-align: -webkit-center">
+                                                    <b>SMS :</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p> From here sms can be created/edited/deleted/copied. SMS can be
+                                                        shared with portal.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5% ;  vertical-align: top; text-align: -webkit-center">
+                                                    <b>Relation:</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p> Relation is used for sending email/letter/sms/pages. Relation
+                                                        can be grouped/Filtered. Relation can be created/ imported from
+                                                        csv, exported to csv / deleted/edited.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5% ;  vertical-align: top; text-align: -webkit-center">
+                                                    <b>Send:</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p> From Here Email/Letters/SMS can be sent to relation-group. Group
+                                                        is created from relation option.Can be sent to filtered relation
+                                                        or also can be sent to single relation by typing email/ address/
+                                                        phone no.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5% ;  vertical-align: top; text-align: -webkit-center">
+                                                    <b>Translations:</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p> This option is only for admin. Here can be add translation of
+                                                        word(s). This system support English, Dutch and German at this
+                                                        moment.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5% ;  vertical-align: top; text-align: -webkit-center">
+                                                    <b> Portal:</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p>This option for account under portal and admin .Different portal
+                                                        is used for different account or group of account. Depending on
+                                                        portal letter/sms/email and membership price are different.For
+                                                        different portal logo will be different.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5% ;  vertical-align: top;text-align: -webkit-center">
+                                                    <b> Admin:</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p>From here can be seen Statistics from starting of the app which
+                                                        contains total portals, total accounts, total users, users with
+                                                        no account activation, account with no upgrades. Graph is used
+                                                        for quick overview of sent sms/opens/click/unsubscriber. From
+                                                        here account can be disable, enable. Can be set role / can be
+                                                        made account manager of another account. Can be Switched to
+                                                        another account.Can be extended trial of account. Can be made
+                                                        account member.Can be set credits discount, subscription
+                                                        discount etc.Search is also available on account id, account
+                                                        name , email etc.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5% ;  vertical-align: top;text-align: -webkit-center">
+                                                    <b> Connected accounts:</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p>This option for account manager and admin. From here account
+                                                        manager can switch to another account and do everything on
+                                                        behalf of the account.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:5% ;  vertical-align: top; text-align: -webkit-center">
+                                                    <b> Dropdown (after login):</b></td>
+                                                <td style="width:95%; float:right">
+                                                    <p> Package subscription , account information , logout , variables
+                                                        , Wesp message priority are here.<ul>
+                                                            <li>Package subscription : option can be created user, can
+                                                                be bought extra email credits,can be edited account
+                                                                data(password, name, email etc).</li>
+                                                            <li>Account information: Account data can be edited from
+                                                                here also.</li>
+                                                            <li>Variables: Variables can be set here. For example I set
+                                                                a variable name to NawazShorif. If we write {name} then
+                                                                it will show NawazShorif in the system.</li>
+                                                        </ul>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                </div>
+                            </div>
+                            <!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                    <img class="img-responsive project-image" src="assets/images/stoerlinnen.png"
+                                        alt="Stoerlinnen" id="myImg" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://configurator.stoerlinnen.nl/"
+                                            target="_blank">Stoerlinnen</a></h3>
+
+                                    <b>PHP, jQuery, AJAX & mySQl</b>
+                                    <p> This project has two part <a href="https://configurator.stoerlinnen.nl/"
+                                            target="_blank"><b>Frontend</b></a> & <a
+                                            href="https://configurator.stoerlinnen.nl/dashboard"
+                                            target="_blank"><b>Backend</b></a>.<br>
+                                        <ul>
+                                            <li> Frontend : we can select many kind linen and sent order for this to
+                                                admin.</li>
+                                            <li>Backend: After login backend , It can manage all order and send
+                                                corresponding feedback to the customer. </li>
+                                            <li> In backend Here is strong portal permission system.</li>
+                                        </ul>
+                                    </p>
+
+                                </div>
+
+                                <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                </div>
+
+
+                            </div>
+                            <!--//item-->
+
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                    <img class="img-responsive project-image" src="assets/images/manual.png"
+                                        alt="Online Manual" id="myImg2" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://manual.boodev.co/items/create-new-tenant"
+                                            target="_blank">Online Manual</a></h3>
+                                    <!--<p>You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>-->
+                                    <b>PHP, MySql, S3, CKEditor & Google Custom Search</b>
+                                    <p>
+                                        <ul>
+                                            <li>To use the system users have to register using his/her user Email and
+                                                password if site is private</li>
+                                            <li>After logging in user can add, edit or delete address book entry</li>
+                                        </ul>
+                                    </p>
+
+                                    <p><a class="more-link" href="http://manual.boodev.co/items/create-new-tenant"
+                                            target="_blank"><i class="fa fa-external-link"></i>Live Web </a></p>
+                                </div>
+                                <!--//desc-->
+                            </div>
+                            <!--//item-->
+
+
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
+            </div>
+            <!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Dhaka,
+                                    Bangladesh</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a
+                                        href="mailto:mr.nawaz.cse.ruet@gmail.com">nawaz.cse.ruet@gmail.com</a></li>
+                                <!--<li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li>-->
+                            </ul>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//aside-->
+
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                I am MEAN Stack Developer.I can also work in PHP and MySQL</p>
+                            <div class="skillset">
+
+                                <div class="item">
+                                    <h3 class="level-title">Node.js, MongoDB &amp; Express<span class="level-label"
+                                            data-toggle="tooltip" data-placement="left" data-animation="true"></span>
+                                    </h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">React & JavaScript<span class="level-label"></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3, Bootstrap<span class="level-label"></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="88%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">PHP and MySQL<span class="level-label"></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+
+                                <p><a class="more-link" href="https://www.linkedin.com/in/md-nawaz-shorif-4b0b97b2/"
+                                        target="_blank"><i class="fa fa-external-link"></i> More on Linkedin</a></p>
+                            </div>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc in Computer Science and
+                                    Engineering </h3>
+                                <h4 class="university">Rajshahi University of Engineering & Technology <span
+                                        class="year">(2013-2017)</span></h4>
+                            </div>
+                            <!--//item-->
+
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> HSC</h3>
+                                <h4 class="university">Rajshahi Govt. City College <span class="year">(2010-2012)</span>
+                                </h4>
+                            </div>
+                            <!--//item-->
+
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Spoken and Written <br class="visible-xs" /><i
+                                            class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+                                            class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li>
+                                <!--//item-->
+
+                            </ul>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+
+                <aside class="blog aside section">
+
+                    <div class="section-inner">
+                        <h2 class="heading">Other Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Vanhove</h3>
+                                <b>PHP, MySQL , jQuery & AJAX </b>
+                                <p>Anyone can see posted blog. For posting blog at first someone has to signup.Admin can
+                                    delete Blog post. Blogger can update Post.</p>
+
+                                <p><a class="more-link" href="https://portal.vanhem.nl/" target="_blank"><i
+                                            class="fa fa-external-link"></i> View on Live</a></p>
+                            </div>
+                            <!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="https://wellworkdashboard.bgwadvies.nl/"
+                                        style="color: #005cbf" target="_blank">BGW</a></h3>
+
+                                <b>PHP, MySQL , jQuery & AJAX</b>
+                                <p>This is a Real time chat Application. Developed in Node.js & Express using Socket.io
+                                </p>
+                                <p>Open two Window of Browser with same address. Give name & Type message. You can see
+                                    typing user in another window</p>
+
+                                <p><a class="more-link" href="https://wellworkdashboard.bgwadvies.nl/"
+                                        target="_blank"><i class="fa fa-external-link"></i> View on Live</a></p>
+                            </div>
+                            <!--//item-->
+
+                            <a class="btn btn-cta-secondary" href="https://github.com/NawazShorif" target="_blank">More
+                                on GitHub <i class="fa fa-chevron-right"></i></a>
+
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+
+                </aside>
+                <!--//section-->
+
+
+            </div>
+            <!--//secondary-->
+        </div>
+        <!--//row-->
+    </div>
+    <!--//masonry-->
+
+    <!-- ******FOOTER****** -->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript"
+        src="http://caseyscarborough.github.io/github-activity/github-activity-0.1.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg2');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
